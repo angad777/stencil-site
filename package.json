@@ -16,7 +16,7 @@
     "start": "npm run site.structure && npm run docs && stencil build --dev --watch --serve"
   },
   "devDependencies": {
-    "@stencil/core": "1.0.1",
+    "@stencil/core": "1.9.2",
     "@stencil/router": "1.0.0",
     "@stencil/state-tunnel": "1.0.0",
     "@types/fs-extra": "^7.0.0",
