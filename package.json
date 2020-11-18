@@ -21,7 +21,7 @@
     "@stencil/state-tunnel": "1.0.0",
     "@types/fs-extra": "^7.0.0",
     "@types/glob": "^7.1.1",
-    "@types/marked": "^0.6.2",
+    "@types/marked": "^1.2.0",
     "@types/prismjs": "^1.9.1",
     "copy-text-to-clipboard": "^2.1.0",
     "firebase-tools": "^6.8.0",
