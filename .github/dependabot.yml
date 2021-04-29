@@ -1,0 +1,50 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "19:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: firebase-tools
+    versions:
+    - 9.2.2
+    - 9.3.0
+    - 9.4.0
+    - 9.5.0
+    - 9.6.0
+    - 9.6.1
+    - 9.7.0
+    - 9.8.0
+    - 9.9.0
+  - dependency-name: "@types/fs-extra"
+    versions:
+    - 9.0.10
+    - 9.0.6
+    - 9.0.7
+    - 9.0.8
+    - 9.0.9
+  - dependency-name: "@types/marked"
+    versions:
+    - 1.2.1
+    - 1.2.2
+    - 2.0.0
+    - 2.0.1
+  - dependency-name: "@stencil/core"
+    versions:
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+  - dependency-name: workbox-build
+    versions:
+    - 6.0.2
+    - 6.1.0
+    - 6.1.1
+    - 6.1.2
+  - dependency-name: marked
+    versions:
+    - 1.2.8
+    - 1.2.9
+    - 2.0.0
+    - 2.0.1
